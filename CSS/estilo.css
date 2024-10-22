@@ -1,0 +1,88 @@
+body {
+    background-color: #e60bb6; /* Fondo más claro para resaltar el contenido */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000; /* Color de fondo del header */
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centrar el menú */
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px; /* Espaciado horizontal */
+}
+
+header nav ul li a {
+    color: #FF007F; /* Color rosa para los enlaces */
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 40px;
+    text-align: center; /* Centrar el texto */
+}
+
+.imagen-contenedor {
+    display: flex;
+    justify-content: center; /* Centrar la imagen */
+}
+
+img {
+    max-width: 100%; /* Asegúrate de que la imagen sea responsiva */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #FF007F; /* Color del encabezado principal */
+}
+
+h5 {
+    font-size: 1.5em;
+    color: #333; /* Color gris para subtítulos */
+}
+
+ul {
+    list-style: none; /* Sin viñetas en la lista */
+    padding: 0; /* Sin padding */
+}
+
+aside {
+    background-color: #FFF; /* Fondo blanco para el formulario */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra para destacar */
+}
+
+footer {
+    background-color: #000; /* Color de fondo del footer */
+    color: #FF007F; /* Color rosa del texto del footer */
+    text-align: center;
+    padding: 20px 0;
+}
+
+button {
+    background-color: #FF007F; /* Color rosa para los botones */
+    color: white; /* Texto blanco */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar el cursor al pasar */
+}
+
+button:hover {
+    background-color: #D5006D; /* Color más oscuro al pasar el mouse */
+}
